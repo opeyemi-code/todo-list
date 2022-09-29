@@ -57,7 +57,7 @@ deleteButton.addEventListener('click', deleteTodo);
 
 function deleteTodo (e){
   e.preventDefault();
-  const x = confirm('Are you sure you want to delete the task?');
+  const x = confirm('Are you sure you want to delete this task?');
   if(x){
  todoList.removeChild(div);
   }
