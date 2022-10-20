@@ -8,7 +8,7 @@ addBtn.addEventListener('click', addTodos);
 function addTodos (e){
   e.preventDefault();
   
-  const todoItem = inputField.value;
+  const todoItem = inputField.value.trim();
 
   const div = document.createElement('div');
 
