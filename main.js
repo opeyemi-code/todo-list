@@ -29,7 +29,8 @@ deleteButton.id = 'delete-button'
 deleteButton.innerHTML = `<i class="fa-solid fa-trash"></i>`
 div.appendChild(deleteButton);
 
-if(inputField.value === ''){
+
+if(todoItem.trim().length === 0){
   alert('No task to add to the List');
 }
 
